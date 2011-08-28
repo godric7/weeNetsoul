@@ -378,11 +378,11 @@ def weeNS_hook_cmd_ns(data, buffer, args) :
 if __name__ == "__main__" :
     if weechat.register(SCRIPT_NAME, SCRIPT_AUTHOR, SCRIPT_VERSION, SCRIPT_LICENSE, SCRIPT_DESC, '', 'weeNS_script_unload_cb'):
         weechat.hook_command('ns', 'weeNetsoul main command', 'connect | disconnect | send <login> <msg> | state <status> | who <login>',
-                             "                connect : Connect\n"
-                             "             disconnect : Disconnect\n"
-                             "send <login>/<fd> <msg> : Send <msg> to <login> on all fd or to fd only\n"
-                             "         state <status> : Set state to <status>\n"
-                             "            who <login> : Get infos on <login>\n",
+                             "    connect : Connect\n"
+                             " disconnect : Diconnect\n"
+                             "       send : Send <msg> to <login> (any client) or to <:fd> (unique client)\n"
+                             "      state : Change status to <status> (en ligne/actif/whatever)\n"
+                             "        who : Show infos about <login>\n",
                              '', 'weeNS_hook_cmd_ns', '')
         weeNS_config_file = weechat.config_new(SCRIPT_NAME, '', '')
         weeNS_config_server_section = weechat.config_new_section(weeNS_config_file, 'server', 0, 0, 'weeNS_server_section_read_cb', '', '', '',  '', '', '', '', '', '')
