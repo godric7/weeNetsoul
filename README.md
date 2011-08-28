@@ -4,7 +4,7 @@ Module Netsoul pour WeeChat
 
 Comment installer weeNetsoul ?
 ----------------------------
-1. Télécharger la dernière version du scrip.
+1. Télécharger la dernière version du script.
 2. La copier dans ~/.weechat/python/autoload ou pas autoload si on veut le lancer à la main.
 3. Lancer weechat ou creer le fichier de conf ~/.weechat/weeNetsoul.conf
 
@@ -37,9 +37,9 @@ Dans weechat
 Wahoo c'est so powerfull, quoi d'autre ?
 ------------------
 
-* Le buffer weeNetsoul contient à droite une liste des contacts définis dans les options. Si ils sont connectés on voit des infos sur leur clients, c'est magique.
-* Toute ce qui est reçu/envoyé par le client s'affiche dans le buffer weeNetsoul préfixé par une petite flèche comme dans le module IRC, comme ça vous pouvez admirer le super protocole, c'est ludique.
-* Tout ce qui est tapé dans le buffer weeNetsoul est envoyé au serveur Netsoul, comme ça vous pouvez faire planter les clients de vos amis et meme utiliser des cheat-codes, c'est triptique.
+* Le buffer weeNetsoul contient une nicklist des contacts définis dans les options. Si ils sont connectés, on voit des infos sur leur clients : c'est magique.
+* Toute ce qui est reçu/envoyé par le client s'affiche dans le buffer weeNetsoul préfixé par une petite flèche comme dans le module IRC, comme ça vous pouvez admirer le super protocole : c'est ludique.
+* Tout ce qui est tapé dans le buffer weeNetsoul est envoyé au serveur Netsoul, comme ça vous pouvez faire planter les clients de vos amis et meme utiliser des cheat-codes : c'est triptique.
 
 Qui à commis ça ?
 ------------
