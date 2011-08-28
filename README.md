@@ -26,12 +26,13 @@ Bien sur, /set weeNetsoul.server.option value ca marche aussi
 Fonctionnement
 ------------------
 Dans weechat
-<pre>/ns connect | disconnect | send &lt;login|:fd&gt; &lt;msg&gt; | state &lt;status&gt; | who &lt;login&gt;</pre>
-connect : Connection
-disconnect : Deconnection
-send : Envoyer &lt;msg] à &lt;login&gt; (tous ses clients) ou à &lt;:fd&gt; (client unique)
-state &lt;status&gt; : Changer son status pour &lt;status&gt; (en ligne/actif/whatever)
-who &lt;login&gt; : Afficher les infos sur &lt;login&gt;
+<pre>/ns connect | disconnect | send &lt;login|:fd&gt; &lt;msg&gt; | state &lt;status&gt; | who &lt;login&gt;
+  connect : Connection
+  disconnect : Deconnection
+  send : Envoyer &lt;msg] à &lt;login&gt; (tous ses clients) ou à &lt;:fd&gt; (client unique)
+  state &lt;status&gt; : Changer son status pour &lt;status&gt; (en ligne/actif/whatever)
+  who &lt;login&gt; : Afficher les infos sur &lt;login&gt;
+</pre>
 
 Wahoo c'est so powerfull, quoi d'autre ?
 ------------------
