@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
 # Copyright (C) 2011 godric <godric@0x3f.fr>
 # License: WTF
+# 
+# Changelog
+# v1.1
+# + re-implemented state change
+# + changed pattern and color in nicklist
 
 SCRIPT_NAME    = 'weenetsoul'
 SCRIPT_AUTHOR  = 'godric <godric@0x3f.fr>'
-SCRIPT_VERSION = '1.0'
+SCRIPT_VERSION = '1.1'
 SCRIPT_LICENSE = 'WTF'
 SCRIPT_DESC    = 'Netsoul protocol for WeeChat'
 
