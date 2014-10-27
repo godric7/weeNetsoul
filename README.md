@@ -19,19 +19,23 @@ Le fichier de configuration doit ressembler à ceci :
   password = "pass socks"
   data = "-"
   location = "-"
+  state = "actif"
   contacts = "login_1,login_2,...,login_n"
+  reconnect_time = "30"
 </pre>
 Bien sur, /set weenetsoul.server.option value ca marche aussi
 
 Fonctionnement
 ------------------
 Dans weechat
-<pre>/ns connect | disconnect | send &lt;login|:fd&gt; &lt;msg&gt; | state &lt;status&gt; | who &lt;login&gt;
-  connect    : Connection
-  disconnect : Deconnection
-  send       : Envoyer &lt;msg&gt; à &lt;login&gt; (tous ses clients) ou à &lt;:fd&gt; (client unique)
-  state      : Changer son status pour &lt;status&gt; (en ligne/actif/whatever)
-  who        : Afficher les infos sur &lt;login&gt;
+<pre>/ns connect | disconnect | reconnect | send &lt;login&gt; &lt;msg&gt; | state &lt;status&gt; | who &lt;login&gt;... | add_contact &lt;login&gt;...
+  connect     : Connexion
+  disconnect  : Deconnexion
+  reconnect   : Reconnexion (deconnexion puis reconnexion en boucle jusqu'au succes)
+  send        : Envoyer &lt;msg&gt; à &lt;login&gt; (tous ses clients) ou à &lt;:fd&gt; (client unique)
+  state       : Changer son status pour &lt;status&gt; (en ligne/actif/whatever)
+  who         : Afficher les infos sur tous les &lt;login&gt;...
+  add_contact : Ajouter tous les &lt;login&gt;... à la liste de contacts
 </pre>
 
 Wahoo c'est so powerfull, quoi d'autre ?
